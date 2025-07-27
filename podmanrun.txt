@@ -1,0 +1,10 @@
+podman run -it --rm -v $PWD:/app -p 8080:8080 -w /app docker.io/php:8.4-cli bash
+
+podman build -t phpcomposer .
+
+podman run -it --rm -v $PWD:/app -p 8080:8080 -w /app --network cinet phpcomposer bash
+
+podman run -d --name cipg -e POSTGRES_USER=ciuser -e POSTGRES_PASSWORD=cipass -e POSTGRES_DB=cidb \
+  -p 5432:5432 -v pgdata:/var/lib/postgresql/data:Z --network cinet docker.io/library/postgres:17
+
+podman network create cinet
