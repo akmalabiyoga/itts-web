@@ -4,16 +4,18 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>tugas</title>
-    <link rel="stylesheet" href="<?= base_url('css/bootstrap.min.css') ?>">
-    <link rel="stylesheet" href="<?= base_url('icons/bootstrap-icons.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('icons/bs-icons/bootstrap-icons.min.css') ?>">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md bg-body py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg class="bi bi-bezier" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"></path>
-                        <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
-                    </svg></span><span>Akmal Yusuf Abiyoga</span></a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span>Akmal Yusuf Abiyoga</span>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span
+                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div id="navcol-1" class="collapse navbar-collapse">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
@@ -27,14 +29,20 @@
     </nav>
     <div class="container py-4 py-xl-5">
         <div class="row gy-4 gy-md-0">
-            <div class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+            <div
+                class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
                 <div style="max-width: 350px;">
                     <h2 class="text-uppercase fw-bold">akmal yusuf abiyoga</h2>
-                    <p class="my-3"><br />Pengembang backend, pengoptimal sistem, dan perancang solusi data.<br /> Dari multimedia hingga database, saya suka menyederhanakan yang kompleks.<br /><br /></p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Kenali Saya</a><a class="btn btn-outline-primary btn-lg" role="button" href="#">Portofolio</a>
+                    <p class="my-3"><br />Pengembang backend, pengoptimal sistem, dan perancang solusi data.<br /> Dari
+                        multimedia hingga database, saya suka menyederhanakan yang kompleks.<br /><br /></p><a
+                        class="btn btn-primary btn-lg me-2" role="button" href="#">Kenali Saya</a><a
+                        class="btn btn-outline-primary btn-lg" role="button" href="#">Portofolio</a>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="m-xl-5 p-xl-5"><img class="rounded img-fluid object-fit-cover w-100" style="min-height: 300px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" /></div>
+                <div class="m-xl-5 p-xl-5"><img class="rounded img-fluid object-fit-cover w-100"
+                        style="min-height: 300px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                </div>
             </div>
         </div>
     </div>
@@ -48,9 +56,9 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body p-4">
-                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon"><svg class="bi bi-bell" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6"></path>
-                            </svg></div>
+                        <div class="col d-flex mb-2">
+                            <i class="bi bi-globe d-flex bg-primary text-white p-2 rounded fs-3"></i>
+                        </div>
                         <h4 class="card-title">Web Development</h4>
                         <p class="card-text">Pengembangan Web menggunakan Angular, Laravel, Node.Js.</p>
                     </div>
@@ -59,23 +67,23 @@
             <div class="col">
                 <div class="card">
                     <div class="card-body p-4">
-                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon"><svg class="bi bi-bezier" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"></path>
-                                <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z"></path>
-                            </svg></div>
+                        <div class="col d-flex mb-2">
+                            <i class="bi bi-pie-chart d-flex bg-primary text-white p-2 rounded fs-3"></i>
+                        </div>
                         <h4 class="card-title">Data Visualization</h4>
-                        <p class="card-text">Data Visualisasi menggunakan Tableau, HTML + Javascript, maupun Power BI</p>
+                        <p class="card-text">Data Visualisasi menggunakan Tableau, HTML + Javascript, maupun Power BI
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
                     <div class="card-body p-4">
-                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center mb-3 d-inline-block bs-icon"><svg class="bi bi-flag" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"></path>
-                            </svg></div>
+                        <div class="col d-flex mb-2">
+                            <i class="bi bi-person-fill-gear d-flex bg-primary text-white p-2 rounded fs-3"></i>
+                        </div>
                         <h4 class="card-title">Technical Support</h4>
-                        <p class="card-text">Bantuan Teknis terhadap permasalahan komputer secara sederhana seperti instalasi ulang Windows.</p>
+                        <p class="card-text">Bantuan Teknis terhadap permasalahan komputer secara sederhana.</p>
                     </div>
                 </div>
             </div>
@@ -89,26 +97,34 @@
         </div>
         <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
             <div class="col">
-                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;"
+                        src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                     <div class="py-4">
                         <h4>Pengembangan Web Data Showcase</h4>
-                        <p>Pembuatan tampilan web interaktif untuk menyajikan data secara visual dan informatif. Proyek ini menggabungkan desain responsif dan integrasi backend untuk eksplorasi data yang efisien.</p>
+                        <p>Pembuatan tampilan web interaktif untuk menyajikan data secara visual dan informatif. Proyek
+                            ini menggabungkan desain responsif dan integrasi backend untuk eksplorasi data yang efisien.
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;"
+                        src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                     <div class="py-4">
                         <h4>Dashboard Pimpinan dengan Tableau</h4>
-                        <p>Visualisasi data interaktif yang dirancang khusus untuk kebutuhan strategis pimpinan. Dashboard ini menyajikan insight kunci secara ringkas dan real-time, mendukung pengambilan keputusan berbasis data.</p>
+                        <p>Visualisasi data interaktif yang dirancang khusus untuk kebutuhan strategis pimpinan.
+                            Dashboard ini menyajikan insight kunci secara ringkas dan real-time, mendukung pengambilan
+                            keputusan berbasis data.</p>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
+                <div><img class="rounded img-fluid object-fit-cover d-block w-100" style="height: 200px;"
+                        src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png" />
                     <div class="py-4">
                         <h4>Upgrade RAM pada Lenovo AIO</h4>
-                        <p>Peningkatkan kapasitas memori untuk kinerja sistem yang lebih cepat dan responsif. Langkah ini memperpanjang usia perangkat dan meningkatkan efisiensi multitasking.</p>
+                        <p>Peningkatkan kapasitas memori untuk kinerja sistem yang lebih cepat dan responsif. Langkah
+                            ini memperpanjang usia perangkat dan meningkatkan efisiensi multitasking.</p>
                     </div>
                 </div>
             </div>
@@ -122,22 +138,34 @@
                 <li class="list-inline-item"><a class="link-body-emphasis" href="#">Hosting</a></li>
             </ul>
             <ul class="list-inline">
-                <li class="list-inline-item me-4"><a href="#"><svg class="bi bi-facebook text-body" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"></path>
+                <li class="list-inline-item me-4"><a href="#"><svg class="bi bi-facebook text-body"
+                            xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951">
+                            </path>
                         </svg></a></li>
-                <li class="list-inline-item me-4"><a href="#"><svg class="bi bi-twitter-x text-body" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"></path>
+                <li class="list-inline-item me-4"><a href="#"><svg class="bi bi-twitter-x text-body"
+                            xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z">
+                            </path>
                         </svg></a></li>
-                <li class="list-inline-item"><a href="#"><svg class="bi bi-instagram text-body" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"></path>
+                <li class="list-inline-item"><a href="#"><svg class="bi bi-instagram text-body"
+                            xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334">
+                            </path>
                         </svg></a></li>
             </ul>
             <p class="text-body mb-0">Copyright © 2025 Brand</p>
         </div>
     </footer>
 
-    <script src="<?= base_url('js/bootstrap.bundle.min.js') ?>"></script>
-    <script src="<?= base_url('js/jquery.min.js') ?>"></script>
+    <script src="<?php echo base_url('js/bootstrap.bundle.min.js') ?>"></script>
+    <script src="<?php echo base_url('js/jquery.min.js') ?>"></script>
 </body>
 
 </html>
