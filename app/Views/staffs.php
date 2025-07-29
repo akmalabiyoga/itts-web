@@ -7,7 +7,7 @@
             <p>Perkenalkan tim profesional Kami</p>
         </div>
     </div>
-    <div class="row gy-4 row-cols-2 row-cols-md-4">
+    <div class="row gy-4 row-cols-1 row-cols-md-3">
         <?php foreach ($staffs as $staff): ?>
             <div class="col">
                 <div class="card border-0 shadow-none">

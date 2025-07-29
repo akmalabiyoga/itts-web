@@ -4,7 +4,7 @@
     <h3 class="text-dark mb-1">Config Web</h3>
     <div class="card shadow mb-4">
         <div class="card-body">
-            <form action="<?= site_url('admin/web_config') ?>" method="post">
+            <form action="/admin/web_config" method="post">
                 <?php foreach ($web_config as $config): ?>
                     <div class="mb-3">
                         <label for="<?= $config['item'] ?>" class="form-label"><?= ucfirst(str_replace('_', ' ', $config['item'])) ?></label>

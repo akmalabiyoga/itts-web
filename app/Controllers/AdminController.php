@@ -12,11 +12,29 @@ class AdminController extends BaseController
         // dd('asd');
         $db = \Config\Database::connect();
 
-        $webConfig = $db->table('web_conf')->get()->getResultArray();
+        $webConfig = $db->table('web_conf')->orderBy('order','ASC')->get()->getResultArray();
         return view('admin/home', [
             'page'       => 'home',
             'web_config' => $webConfig,
         ]);
+    }
+
+    public function webConfig()
+    {
+        $db = \Config\Database::connect();
+        $webConfig = $db->table('web_conf')->get()->getResultArray();
+
+            foreach ($webConfig as $config) {
+                $item = $config['item'];
+                $value = $this->request->getPost($item);
+                if ($item === 'about_text') {
+                    $longValue = $this->request->getPost('about_text');
+                    $db->table('web_conf')->where('item', $item)->update(['long_value' => $longValue]);
+                } else {
+                    $db->table(tableName: 'web_conf')->where('item', $item)->update(['value' => $value]);
+                }
+            }
+            return redirect()->to(site_url('admin'));
     }
 
     // SERVICES CRUD

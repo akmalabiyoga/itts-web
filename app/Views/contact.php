@@ -10,6 +10,7 @@
                             <form method="post">
                                 <div class="mb-3"><input id="name-2" class="form-control" type="text" name="name" placeholder="Name" /></div>
                                 <div class="mb-3"><input id="email-2" class="form-control" type="email" name="email" placeholder="Email" /></div>
+                                <div class="mb-3"><input id="phone-2" class="form-control" type="tel" name="phone" placeholder="Phone Number" /></div>
                                 <div class="mb-3"><textarea id="message-2" class="form-control" name="message" rows="6" placeholder="Message"></textarea></div>
                                 <div><button class="btn btn-primary w-100 d-block" type="submit">Send </button></div>
                             </form>
